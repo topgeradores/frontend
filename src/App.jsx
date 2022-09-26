@@ -5,7 +5,7 @@ import { Login } from "./routes/Login";
 import { ResetPasswd } from "./routes/ResetPasswd";
 import { RequireAuth } from "./components/RequireAuth";
 import { NewClient } from "./routes/NewClient";
-import { NotFound } from "./routes/Notfound";
+import { NotFound } from "./routes/NotFound";
 import { UserContext } from "./context/UserProvider";
 import { useContext } from "react";
 import { Register } from "./routes/Register";
