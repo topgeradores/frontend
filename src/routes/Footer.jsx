@@ -40,7 +40,7 @@ export const Footer = () => {
             <div className="row">
                 <Subtitle
                     color="black"
-                    text="Atendemos nas regiões do Sul fluminense e Vale do Paraíba."
+                    text="Atendemos nas regiões Sul Fluminense e Vale do Paraíba."
                 />
             </div>
             <div className="row">
