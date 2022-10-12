@@ -6,55 +6,64 @@ import { Subtitle } from "../components/Subtitle";
 import { Footer } from "./Footer";
 
 export const Home = () => {
+  return (
+    <>
+      <Alert />
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="Instalação e manutenção elétrica predial e residencial"
+        />
+      </div>
 
-    return (
-        <>
-            <Alert />
-            <div className="row">
-                <Subtitle 
-                    color="black"
-                    text="Instalação e manutenção elétrica predial e residencial" 
-                />
-                <Card
-                    position="offset-sm-4 col-sm-4"
-                    url="https://res.cloudinary.com/top-geradores/image/upload/v1639758648/site/cyberspace.jpg"
-                    alt="elétrica"
-                    width="300"
-                    height="150"
-                />
-            </div>
-            <div className="row mt-4">
-                <Subtitle 
-                    color="black" 
-                    text="Representamos as melhores marcas de geradores do mercado" 
-                />
-            </div>
-            <div className="row">
-                <Card
-                    position="col-sm-4"
-                    url="https://res.cloudinary.com/top-geradores/image/upload/v1639768270/site/gerador1.png"
-                    alt="gerador 1"
-                    width="100%"
-                    height="200"
-                />
-                <Card
-                    position="col-sm-4"
-                    url="https://res.cloudinary.com/top-geradores/image/upload/v1639701858/site/gerador2.png"
-                    alt="gerador 2"
-                    width="100%"
-                    height="200"
-                />
-                <Card
-                    position="col-sm-4"
-                    url="https://res.cloudinary.com/top-geradores/image/upload/v1639752091/site/gerador3.png"
-                    alt="gerador 3"
-                    width="100%"
-                    height="200"
-                />
-            </div>
-            <Clients/>
-            <Products/>
-            <Footer/>
-        </>
-    )
-}
+      <div className="row justify-content-sm-center">
+        <Card
+          position="col-sm-3"
+          url="https://res.cloudinary.com/top-geradores/image/upload/v1665591558/site/quadro-aberto.jpg"
+          alt="elétrica"
+          width="260"
+          height="180"
+        />
+        <Card
+          position="col-sm-3"
+          url="https://res.cloudinary.com/top-geradores/image/upload/v1665595610/site/quadro-fechado.jpg"
+          alt="elétrica"
+          width="260"
+          height="180"
+        />
+      </div>
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="Representamos as melhores marcas de geradores do mercado"
+        />
+      </div>
+      <div className="row">
+        <Card
+          position="col-sm-4"
+          url="https://res.cloudinary.com/top-geradores/image/upload/v1639768270/site/gerador1.png"
+          alt="gerador 1"
+          width="100%"
+          height="200"
+        />
+        <Card
+          position="col-sm-4"
+          url="https://res.cloudinary.com/top-geradores/image/upload/v1639701858/site/gerador2.png"
+          alt="gerador 2"
+          width="100%"
+          height="200"
+        />
+        <Card
+          position="col-sm-4"
+          url="https://res.cloudinary.com/top-geradores/image/upload/v1639752091/site/gerador3.png"
+          alt="gerador 3"
+          width="100%"
+          height="200"
+        />
+      </div>
+      <Clients />
+      <Products />
+      <Footer />
+    </>
+  );
+};
