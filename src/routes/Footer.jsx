@@ -20,7 +20,7 @@ export const Footer = () => {
             <div className="row mt-1">
                 <FooterLink
                     color="success"
-                    url="https://api.whatsapp.com/send?phone=5524993275577&text=Ola%20TOP%20GERADORES!%20Preciso%20de%20um%20atendimento."
+                    url="https://api.whatsapp.com/send?phone=5524998680304&text=Ola%20TOP%20GERADORES!%20Preciso%20de%20um%20atendimento."
                     icon="ph-whatsapp-logo"
                     title="Fale conosco agora mesmo"
                 />
