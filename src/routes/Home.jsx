@@ -10,9 +10,28 @@ export const Home = () => {
     <>
       <Alert />
       <div className="row">
+        <div className="row">
         <Subtitle
           color="black"
-          text="Instalação e manutenção elétrica predial e residencial"
+          text="- Venda de geradores"
+        />
+      </div>
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="- Instalação, manutenção e automação"
+        />
+      </div>
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="- Levantamento de cargas"
+        />
+      </div>
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="- Sistema de telemetria"
         />
       </div>
 
