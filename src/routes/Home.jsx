@@ -33,6 +33,12 @@ export const Home = () => {
           text="- Sistema de telemetria"
         />
       </div>
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="- Isolamento acústico"
+        />
+      </div>
 
       <div className="row justify-content-sm-center">
         <Card
