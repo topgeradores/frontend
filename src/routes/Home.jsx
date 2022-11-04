@@ -10,7 +10,6 @@ export const Home = () => {
     <>
       <Alert />
       <div className="row">
-        <div className="row">
         <Subtitle
           color="black"
           text="- Venda de geradores"
