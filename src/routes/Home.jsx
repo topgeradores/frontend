@@ -24,7 +24,7 @@ export const Home = () => {
       <div className="row">
         <Subtitle
           color="black"
-          text="- Levantamento de cargas"
+          text="- Dimensionamento de carga"
         />
       </div>
       <div className="row">
