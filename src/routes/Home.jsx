@@ -12,13 +12,19 @@ export const Home = () => {
       <div className="row">
         <Subtitle
           color="black"
-          text="- Venda de geradores"
+          text="- Venda e instalação de Geradores"
         />
       </div>
       <div className="row">
         <Subtitle
           color="black"
-          text="- Instalação, manutenção e automação"
+          text="- Manutençao preventiva e corretiva"
+        />
+      </div>
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="- Isolamento acústico"
         />
       </div>
       <div className="row">
@@ -30,13 +36,7 @@ export const Home = () => {
       <div className="row">
         <Subtitle
           color="black"
-          text="- Sistema de telemetria"
-        />
-      </div>
-      <div className="row">
-        <Subtitle
-          color="black"
-          text="- Isolamento acústico"
+          text="- Monitoramento remoto por telemetria"
         />
       </div>
 
