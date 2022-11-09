@@ -18,25 +18,43 @@ export const Home = () => {
       <div className="row">
         <Subtitle
           color="black"
-          text="- Manutençao preventiva e corretiva"
+          text="- Manutençao Preventiva e Corretiva"
         />
       </div>
       <div className="row">
         <Subtitle
           color="black"
-          text="- Isolamento acústico"
+          text="- Revitalizaçao elétrica e mecânica de Geradores"
         />
       </div>
       <div className="row">
         <Subtitle
           color="black"
-          text="- Dimensionamento de carga"
+          text="- Automação"
         />
       </div>
       <div className="row">
         <Subtitle
           color="black"
-          text="- Monitoramento remoto por telemetria"
+          text="- Instalação de chave de transferência de carga"
+        />
+      </div>
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="- Abrigo para atenuação de ruído moderado ou crítico de Geradores"
+        />
+      </div>
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="- Sistema de monitoramento remoto"
+        />
+      </div>
+      <div className="row">
+        <Subtitle
+          color="black"
+          text="- Aterramento e equipotencialização elétrica"
         />
       </div>
 
