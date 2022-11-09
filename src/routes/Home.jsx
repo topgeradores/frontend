@@ -18,13 +18,13 @@ export const Home = () => {
       <div className="row">
         <Subtitle
           color="black"
-          text="- Manutençao Preventiva e Corretiva"
+          text="- Manutenção Preventiva e Corretiva"
         />
       </div>
       <div className="row">
         <Subtitle
           color="black"
-          text="- Revitalizaçao elétrica e mecânica de Geradores"
+          text="- Revitalização elétrica e mecânica de Geradores"
         />
       </div>
       <div className="row">
