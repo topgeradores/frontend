@@ -9,53 +9,65 @@ export const Home = () => {
   return (
     <>
       <Alert />
-      <div className="row">
-        <Subtitle
-          color="black"
-          text="- Venda e instalação de Geradores"
-        />
+      <div className="row justify-content-sm-center text-center mb-2">
+        <div className="col-sm-3">
+          <span class="badge text-bg-primary fs-6">Oferecemos</span>
+        </div>
       </div>
-      <div className="row">
-        <Subtitle
-          color="black"
-          text="- Manutenção Preventiva e Corretiva"
-        />
-      </div>
-      <div className="row">
-        <Subtitle
-          color="black"
-          text="- Revitalização elétrica e mecânica de Geradores"
-        />
-      </div>
-      <div className="row">
-        <Subtitle
-          color="black"
-          text="- Automação"
-        />
-      </div>
-      <div className="row">
-        <Subtitle
-          color="black"
-          text="- Instalação de chave de transferência de carga"
-        />
-      </div>
-      <div className="row">
-        <Subtitle
-          color="black"
-          text="- Abrigo para atenuação de ruído moderado ou crítico de Geradores"
-        />
-      </div>
-      <div className="row">
-        <Subtitle
-          color="black"
-          text="- Sistema de monitoramento remoto"
-        />
-      </div>
-      <div className="row">
-        <Subtitle
-          color="black"
-          text="- Aterramento e equipotencialização elétrica"
-        />
+      
+      <div className="row justify-content-sm-center text-center mb-4">
+        <div className="col-sm-8">
+          <ul className="list-group">
+            <li className="list-group-item list-group-item-light">
+              <strong style={{ fontSize: 17 }}>
+                <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
+                <span> Venda e instalação de Geradores </span>
+              </strong>
+            </li>
+            <li className="list-group-item list-group-item-light">
+              <strong style={{ fontSize: 17 }}>
+                <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
+                <span> Manutenção Preventiva e Corretiva</span>
+              </strong>
+            </li>
+            <li className="list-group-item list-group-item-light">
+              <strong style={{ fontSize: 17 }}>
+                <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
+                <span> Revitalização elétrica e mecânica de Geradores</span>
+              </strong>              
+            </li>
+            <li className="list-group-item list-group-item-light">
+              <strong style={{ fontSize: 17 }}>
+                <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
+                <span> Automação</span>
+              </strong>              
+            </li>
+            <li className="list-group-item list-group-item-light">
+              <strong style={{ fontSize: 17 }}>
+                <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
+                <span> Instalação de chave de transferência de carga</span>
+              </strong>              
+            </li>
+            <li className="list-group-item list-group-item-light">
+              <strong style={{ fontSize: 17 }}>
+                <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
+                <span> Abrigo para atenuação de ruído moderado ou crítico de Geradores</span>
+              </strong>              
+            </li>
+            <li className="list-group-item list-group-item-light">
+              <strong style={{ fontSize: 17 }}>
+                <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
+                <span> Sistema de monitoramento remoto</span>
+              </strong>              
+            </li>
+            <li className="list-group-item list-group-item-light">
+              <strong style={{ fontSize: 17 }}>
+                <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
+                <span> Aterramento e equipotencialização elétrica</span>
+              </strong>              
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="row justify-content-sm-center">
