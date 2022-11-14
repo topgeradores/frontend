@@ -15,52 +15,52 @@ export const Home = () => {
         </div>
       </div>
       
-      <div className="row justify-content-sm-center text-center mb-4">
-        <div className="col-sm-8">
+      <div className="row justify-content-sm-center mb-4">
+        <div className="col-sm-7">
           <ul className="list-group">
-            <li className="list-group-item list-group-item-light">
+            <li className="list-group-item">
               <strong style={{ fontSize: 17 }}>
                 <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
                 <span> Venda e instalação de Geradores </span>
               </strong>
             </li>
-            <li className="list-group-item list-group-item-light">
+            <li className="list-group-item">
               <strong style={{ fontSize: 17 }}>
                 <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
                 <span> Manutenção Preventiva e Corretiva</span>
               </strong>
             </li>
-            <li className="list-group-item list-group-item-light">
+            <li className="list-group-item">
               <strong style={{ fontSize: 17 }}>
                 <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
                 <span> Revitalização elétrica e mecânica de Geradores</span>
               </strong>              
             </li>
-            <li className="list-group-item list-group-item-light">
+            <li className="list-group-item">
               <strong style={{ fontSize: 17 }}>
                 <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
                 <span> Automação</span>
               </strong>              
             </li>
-            <li className="list-group-item list-group-item-light">
+            <li className="list-group-item">
               <strong style={{ fontSize: 17 }}>
                 <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
                 <span> Instalação de chave de transferência de carga</span>
               </strong>              
             </li>
-            <li className="list-group-item list-group-item-light">
+            <li className="list-group-item">
               <strong style={{ fontSize: 17 }}>
                 <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
                 <span> Abrigo para atenuação de ruído moderado ou crítico de Geradores</span>
               </strong>              
             </li>
-            <li className="list-group-item list-group-item-light">
+            <li className="list-group-item">
               <strong style={{ fontSize: 17 }}>
                 <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
                 <span> Sistema de monitoramento remoto</span>
               </strong>              
             </li>
-            <li className="list-group-item list-group-item-light">
+            <li className="list-group-item">
               <strong style={{ fontSize: 17 }}>
                 <i class="ph-atom align-middle" style={{ fontSize: 17 }} />
                 <span> Aterramento e equipotencialização elétrica</span>

@@ -66,9 +66,7 @@ export const Header = () => {
                                     ? <button className="nav-link btn" onClick={handleLogout}>
                                         <i className="ph-sign-out" style={{ fontSize: 24, color: 'white' }}></i>
                                     </button>
-                                    : <NavLink className="nav-link" to="/login">
-                                        <i className="ph-user-circle" style={{ fontSize: 24 }}></i>
-                                    </NavLink>
+                                    : null
                             }
                         </li>
                     </ul>
